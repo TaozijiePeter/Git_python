@@ -2,7 +2,9 @@ import sys
 def default():
     print("Hello")
 def main():
-    if sys.argv[1]=="cat":
+    if sys.argv[1]=="dog":
+        print("dog")
+    elif sys.argv[1]=="cat":
         print("cat")
     else:
         default()
