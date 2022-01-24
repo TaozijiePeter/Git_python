@@ -1,0 +1,5 @@
+(define (sign num)
+	(cond ((< num 0) (-1))
+		  ((eqv? num 0) (0))
+		  (else 1))
+)
